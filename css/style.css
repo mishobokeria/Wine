@@ -2,10 +2,7 @@ body {
   background-image: url(../img/1x/bk.png);
   background-size: cover;
   background-repeat: no-repeat;
-
-  /* background: linear-gradient(black, white); */
 }
-
 .logo {
   max-width: 80px;
   width: 100%;
@@ -16,48 +13,21 @@ body {
   font-size: 24px;
 }
 
-.main {
-  height: 100%;
-  width: 100%;
-}
-.main-left {
-  left: 200px;
-  bottom: 200px;
-}
-/* .main-right {
-  right: 5px;
-  bottom: 200px;
-} */
-
-/*  */
-.sh-p {
-  width: 260px;
-}
-.about-section {
-  margin-top: 150px;
-}
-
 /*  */
 .right-img {
   background-image: url(../img/1x/muk-bk.png);
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 .muk {
   width: 100%;
-}
-.mu-h1 {
-  top: 5px;
-  left: 5px;
-}
 
-/*  */
-.left-box {
+.left-box{
   background-image: url(../img/1x/kh-bk.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .muki {
   font-family: "BPG Irubaqidze", sans-serif;
 }
