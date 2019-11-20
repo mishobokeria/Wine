@@ -7,15 +7,6 @@
     <title>Wine-Alaznis-Valley</title>
     <link
       rel="stylesheet"
-      href="//cdn.web-fonts.ge/fonts/bpg-mikheil-stefane/css/bpg-mikheil-stefane.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.web-fonts.ge/fonts/bpg-irubaqidze/css/bpg-irubaqidze.min.css"
-    />
-
-    <link
-      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
@@ -44,10 +35,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse font-two" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link text-white-50" href="#about"
+              <a class="nav-link text-white-50 active" href="#about"
                 >ჩვენს შესახებ <span class="sr-only">(current)</span></a
               >
             </li>
@@ -155,7 +146,7 @@
           </div>
           <div class="right-img col-md-12 col-lg-6 mt-md-3">
             <!-- <img class="muk" src="img/1x/muk-bk.png" alt="" /> -->
-            <h1 class="text-white p-3 border-bottom border-warning muki">
+            <h1 class="text-white p-3 border-bottom border-warning font-two">
               მუკუზანი
             </h1>
             <p class="text-white p-3 font-one">
@@ -167,7 +158,7 @@
               <li class="text-white">საფერავი ქვევრი</li>
               <li class="text-white">საფერავი</li>
             </ul>
-            <button class="btn btn-warning ml-2">მეტის ნახვა</button>
+            <button class="btn btn-outline-warning ml-2">მეტის ნახვა</button>
           </div>
         </div>
       </div>
@@ -177,7 +168,7 @@
       <div class="d-flex container">
         <div class="row">
           <div class="left-box col-md-12 col-lg-6">
-            <h1 class="text-white p-3 border-bottom border-warning muki">
+            <h1 class="text-white p-3 border-bottom border-warning font-two">
               ხვანჭკარა
             </h1>
             <p class="text-white p-3 font-one">
@@ -190,7 +181,7 @@
               <li class="text-white">ალაზნის წითელი</li>
               <li class="text-white">ქინძმარაული</li>
             </ul>
-            <button class="btn btn-warning ml-2">მეტის ნახვა</button>
+            <button class="btn btn-outline-warning ml-2">მეტის ნახვა</button>
           </div>
           <div class="right-box col-md-12 col-lg-6 mt-md-3">
             <img
@@ -274,26 +265,51 @@
       <div class="container font-one">
         <h1 class="text-white-50 text-center border-bottom border-warning pb-3">სიახლეები</h1>
         <div class="row mt-4">
-          <div class="text-white-50 text-center col-lg-3 col-md-6 col-sm-12">
-            <img src="img/news/news-1.jpg" alt="news">
-            <p>ხვანჭკარა" - ის, რაც ღვინის ყველა მოყვარულმა უნდა იცოდეს</p>
-            <p>ივლისი 31, 2019</p>
-          </div>
-          <div class="text-white-50 text-center col-lg-3 col-md-6 col-sm-12">
-            <img src="img/news/news-2.jpg" alt="news">
-            <p>5 საუკეთესო მუკუზანი</p>
-            <p>ივნისი 14, 2019</p>
-          </div>
-          <div class="text-white-50 text-center col-lg-3 col-md-6 col-sm-12">
-            <img src="img/news/news-3.jpg" alt="news">
-            <p>მარსზე შესაძლოა რქაწითელი გააშენონ </p>
-            <p>ივნისი 01, 2019</p>
-          </div>
-          <div class="text-white-50 text-center col-lg-3 col-md-6 col-sm-12">
-            <img src="img/news/news-4.jpg" alt="news">
-            <p>ნახევრადტკბილი წითელი ღვინო "ქინძმარაული" </p>
-            <p>მაისი 07, 2019</p>
-          </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/news/news-1.jpg" alt="">
+                        <div class="overlay">
+                            <h2>ხვანჭკარა</h2>
+                    <p>
+                      <a href="#">ის, რაც ღვინის ყველა მოყვარულმა უნდა იცოდეს</a>
+                    </p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/news/news-2.jpg" alt="">
+                        <div class="overlay">
+                            <h2>მუკუზანი</h2>
+                    <p>
+                      <a href="#">5 საუკეთესო მუკუზანი</a>
+                    </p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/news/news-3.jpg" alt="">
+                        <div class="overlay">
+                            <h2>რქაწითელი</h2>
+                    <p>
+                      <a href="#">მარსზე შესაძლოა რქაწითელი გააშენონ</a>
+                    </p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="img/news/news-4.jpg" alt="">
+                        <div class="overlay">
+                            <h2>ქინძმარაული</h2>
+                    <p>
+                      <a href="#">ნახევრადტკბილი წითელი ღვინო</a>
+                    </p>
+                        </div>
+                </div>
+            </div>
+
 
         </div>
 
@@ -319,8 +335,11 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label text-white-50" for="exampleCheck1">დამახსოვრება</label>
               </div>
-              <button type="submit" class="btn btn-outline-warning">გამოწერა</button>
             </form>
+                  <div class="col text-center">
+                    <button class="btn btn-outline-warning">გამოწერა</button>
+          
+              </div>
       
       </div>
             <p class="text-white-50 text-center mt-4"> <a href="#main-nav"><i class="fas fa-angle-up"></i></a></p>
