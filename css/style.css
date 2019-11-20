@@ -18,16 +18,32 @@ body {
   background-image: url(../img/1x/muk-bk.png);
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 .muk {
   width: 100%;
 
-.left-box{
+  /* .left-box{
   background-image: url(../img/1x/kh-bk.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .muki {
   font-family: "BPG Irubaqidze", sans-serif;
+}
+/* footer */
+
+.fa-facebook-f {
+  color: #354e84;
+}
+.fa-twitter {
+  color: #57acef;
+}
+.fa-google {
+  color: #bd4433;
+}
+.fa-instagram {
+  color: #8e2d3e;
+}
+.fa-youtube {
+  color: #ce201f;
 }
