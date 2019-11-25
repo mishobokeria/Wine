@@ -62,9 +62,16 @@ html {
   height: 53px;
 }
 /* end */
+/* product */
 .bottle {
   height: 240px;
 }
+.bottle-back {
+  background-image: url(../img/product/bk-bottle.png);
+  background-size: cover;
+  border: 10px solid #141519;
+}
+/* end */
 
 /* footer */
 .pay {
