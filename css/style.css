@@ -1,8 +1,11 @@
 /* base classes */
 body {
   background-image: url(../img/1x/bk.png);
-  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-color: #464646;
 }
 .font-one {
   font-family: "BPG Arial Caps";
@@ -151,3 +154,27 @@ html {
   transform: translate3d(0, 0, 0);
 }
 /* end hover effect */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  ...;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
