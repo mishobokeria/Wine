@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="reboot.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -157,9 +158,9 @@
               კენკროვანის ტონები. მუკუზანს უხდება შემწვარი ხორცის კერძები.
             </p>
             <ul class="">
-              <li class="text-white">სტალინი</li>
-              <li class="text-white">საფერავი ქვევრი</li>
-              <li class="text-white">საფერავი</li>
+              <li class="text-white"><i class="fas fa-wine-glass-alt mr-2"></i>სტალინი</li>
+              <li class="text-white"><i class="fas fa-wine-glass-alt mr-2"></i>საფერავი ქვევრი</li>
+              <li class="text-white"><i class="fas fa-wine-glass-alt mr-2"></i>საფერავი</li>
             </ul>
             <button class="btn btn-outline-warning ml-2">მეტის ნახვა</button>
           </div>
@@ -180,9 +181,9 @@
               ტონებით და ჯიშური არომატით.
             </p>
             <ul class="font-one">
-              <li class="text-white">ფიროსმანი</li>
-              <li class="text-white">ალაზნის წითელი</li>
-              <li class="text-white">ქინძმარაული</li>
+              <li class="text-white"><i class="fas fa-wine-glass-alt mr-2"></i>ფიროსმანი</li>
+              <li class="text-white"><i class="fas fa-wine-glass-alt mr-2"></i>ალაზნის წითელი</li>
+              <li class="text-white"><i class="fas fa-wine-glass-alt mr-2"></i>ქინძმარაული</li>
             </ul>
             <button class="btn btn-outline-warning ml-2">მეტის ნახვა</button>
           </div>
@@ -327,13 +328,8 @@
               <p class="text-white-50 text-center">მიიღეთ ყოველ კვირეული სიახლეები, ივენთები და აქციები</p>
               <div class="form-group">
                 <label for="exampleInputEmail1" class="text-white">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="შეიყვანეთ E-mail">
-                
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="შეიყვანეთ E-mail">  
               </div>
-              <!-- <div class="form-group">
-                <label for="exampleInputPassword1" class="text-white">პაროლი</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div> -->
               <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label text-white-50" for="exampleCheck1">დამახსოვრება</label>
@@ -350,18 +346,16 @@
 
     </section>
     <section class="fast-navigate font-one">
-        <hr>
-      <div class="container d-flex justify-content-around border-bottom border-warning border-top py-3">
-        <p class="text-white">მთავარი</p>
-        <p class="text-white">მაღაზია</p>
-        <p class="text-white">ბლოგი</p>
-        <p class="text-white">აქციები</p>
-        <p class="text-white">კონფიდენციალურობის პოლიტიკა</p>
-        <p class="text-white">კონტაკტი</p>
-
-      </div>
-      <hr>
-
+      <div class="container"> 
+          <ul class="d-flex flex-wrap justify-content-around border-bottom border-warning border-top py-3">
+            <li class="text-white"><a href="#">მთავარი</a></li>
+            <li class="text-white"><a href="#">მაღაზია</a></li>
+            <li class="text-white"><a href="#">ბლოგი</a></li>
+            <li class="text-white"><a href="#">აქციები</a></li>
+            <li class="text-white"><a href="#">კონფიდენციალურობის პოლიტიკა</a></li>
+            <li class="text-white"><a href="#">კონტაკტი</a></li>
+          </ul>
+   </div>
     </section>
     <footer class="py-4 font-one" id="contact">
       <div class="container d-flex justify-content-between align-content-center flex-wrap">
@@ -369,21 +363,21 @@
              <img src="img/logo-footer.png" alt="">
            </div>
            <div>
-             <div>
+             <div class="border-bottom border-warning pb-2">
                <i class="fab fa-facebook-f"></i>
               <i class="fab fa-twitter ml-3"></i>
               <i class="fab fa-google ml-3"></i>
               <i class="fab fa-instagram ml-3"></i>
               <i class="fab fa-youtube ml-3"></i>
               </div>
-              <p class="text-white-50">2019. ყველა უფლება დაცულია</p>
+              <p class="text-white-50 mt-2">2019. ყველა უფლება დაცულია</p>
            </div>
            <div>
-             <h4 class="text-white-50">ადგილმდებარეობა</h4>
+             <h4 class="text-white-50 border-bottom border-warning pb-2">ადგილმდებარეობა</h4>
              <p class="text-white-50">თბილისი, საბურთალოს ქუჩა N2</p>
            </div>
            <div>
-             <h4 class="text-white-50">ცხელი ხაზი</h4>
+             <h4 class="text-white-50 border-bottom border-warning pb-2">ცხელი ხაზი</h4>
              <p class="text-white-50">032 245 25 25</p>
            </div>
            <div>
@@ -438,3 +432,6 @@
       </script> -->
   </body>
 </html>
+
+
+

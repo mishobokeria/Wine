@@ -7,6 +7,15 @@ body {
   background-size: cover;
   background-color: #464646;
 }
+a {
+  color: white;
+}
+a:hover {
+  color: #b0976e;
+}
+a:active {
+  color: #0000ff;
+}
 .font-one {
   font-family: "BPG Arial Caps";
 }
@@ -20,12 +29,16 @@ body {
 .nav-link {
   font-size: 24px;
 }
+/* end base classes */
 /* smooth scroll */
 html {
   scroll-behavior: smooth;
 }
-/*  */
-
+/* end smooth scroll */
+/* mukuzani-khvanchkara section */
+.fa-wine-glass-alt {
+  color: #b0976e;
+}
 /* .right-img {
   background-image: url(../img/1x/muk-bk.png);
   background-size: cover;
@@ -39,10 +52,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat; */
 }
+/* end */
+/* about-section */
 .about-section {
   margin-top: 300px;
 }
-
+/* end
 /* footer */
 
 .fa-facebook-f {
@@ -154,27 +169,3 @@ html {
   transform: translate3d(0, 0, 0);
 }
 /* end hover effect */
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-  ...;
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
-  ...;
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
-  ...;
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  ...;
-}
