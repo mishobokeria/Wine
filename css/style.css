@@ -66,6 +66,9 @@ html {
 }
 
 /* footer */
+.pay {
+  height: 35px;
+}
 
 .fa-facebook-f {
   color: #354e84;
