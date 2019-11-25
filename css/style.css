@@ -57,7 +57,14 @@ html {
 .about-section {
   margin-top: 300px;
 }
-/* end
+.about-img {
+  height: 53px;
+}
+/* end */
+.bottle {
+  height: 240px;
+}
+
 /* footer */
 
 .fa-facebook-f {
