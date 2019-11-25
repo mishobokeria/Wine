@@ -39,7 +39,7 @@ html {
 .fa-wine-glass-alt {
   color: #b0976e;
 }
-.right-img {
+.mukuzani {
   background-image: url(../img/1x/muk-bk.png);
   background-size: cover;
   background-position: center center;
@@ -52,14 +52,6 @@ html {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-}
-.muk {
-  width: 100%;
-
-  /* .left-box{
-  background-image: url(../img/1x/kh-bk.png);
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 /* end */
 /* about-section */
