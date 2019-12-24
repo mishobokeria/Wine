@@ -29,6 +29,12 @@ a:active {
 .nav-link {
   font-size: 24px;
 }
+.headline {
+  font-size: 24px;
+}
+.main-left p:first-child {
+  color: #b0976e;
+}
 /* end base classes */
 /* smooth scroll */
 html {
@@ -190,3 +196,11 @@ html {
   transform: translate3d(0, 0, 0);
 }
 /* end hover effect */
+
+/* test */
+.nav-link {
+  transition: 0.2s;
+}
+.nav-link:hover {
+  border-bottom: 3px solid #b0976e;
+}
