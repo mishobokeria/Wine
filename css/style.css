@@ -23,6 +23,9 @@ a:active {
 .font-two {
   font-family: "BPG Irubaqidze";
 }
+.font-three {
+  font-family: "Lobster", cursive;
+}
 .logo {
   max-width: 80px;
   width: 100%;
@@ -36,6 +39,7 @@ a:active {
 .main-left p:first-child {
   color: #b0976e;
 }
+
 /* end base classes */
 /* smooth scroll */
 html {
